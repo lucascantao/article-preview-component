@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    
+}
+
+#drawer {
+    width: 300px;
+    height: 300px;
+}
+
+form .text-container {
+    flex-direction: column;
+
+}
+
+.under {
+    display: flex;
+    align-items: center;
+}
+
+.under {
+    
+}
+
+#autor-atribuition {
+    display: flex;
+    align-items: center;
+}
