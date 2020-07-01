@@ -47,20 +47,24 @@ body .attribution {
 }
 
 .container .textBox .header h1 {
+    margin-top: 0;
     font-size: 26px;
     font-weight: normal;
-    
+        
 }
 
 .container .textBox .header p {
-    margin-top: 40px;
+    color: #777;
+    margin-top: 20px;
+    line-height: 25px;
+    
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
 }
 
 .container .textBox .header {
-    margin-bottom: auto;
+    
 }
 
 .container .textBox .att {
