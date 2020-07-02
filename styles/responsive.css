@@ -1,0 +1,45 @@
+@media (max-width: 1000px) {
+
+    .container {
+        width: 500px;
+        height: 930px;
+        flex-direction: column;
+    }
+
+    .container .imgBox {
+        border-radius: 16px 16px 0 0;
+    }
+
+    .container .imgBox img{
+        border-radius: 16px 16px 0 0;
+    }
+
+    .container .textBox {
+        padding: 30px;
+    }
+
+    .container .textBox .header h1 {
+        font-size: 35px;
+    }
+
+    .container .textBox .header p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    #modal {
+        position: absolute;
+        
+
+    }
+
+
+    #modal .content {
+
+    }
+
+    
+
+    
+
+}

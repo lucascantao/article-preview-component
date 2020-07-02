@@ -1,0 +1,58 @@
+#modal {
+    
+    
+    position: fixed;
+    width: 220px;
+    transition: 400ms;
+    
+
+    justify-content: center;
+    align-items: center;
+
+    transform: translateY(-40px);
+
+}
+
+#modal.hide {
+    display: none;
+}
+
+#modal .content{
+    background: hsl(217, 19%, 35%);
+    margin: 0;
+    padding: 0;
+
+    height: 50px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px;
+}
+
+#modal .content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: white;
+    margin: 15px auto;
+}
+
+#modal .content .option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 8px;
+    background: hsl(217, 19%, 35%);
+}
+
+#modal .content .option a img{
+    height: 25px;
+    width: 25px;
+}
+

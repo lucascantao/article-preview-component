@@ -10,6 +10,8 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/modal.css">
+  <link rel="stylesheet" href="styles/responsive.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -52,9 +54,40 @@
           <h4>28 Jun 2020</h4>
         </div>
 
-        <a href="#">
-          <img src="images/icon-share.svg" alt="">
-        </a>
+        <div class="share">
+          
+          
+            
+          
+
+          <button><img src="images/icon-share.svg" alt=""></button>
+
+          <div id="modal" class="hide">
+            <div class="content">
+              <h1>SHARE</h1>
+        
+                <div class="option">
+                  <a href="#"><img src="images/icon-facebook.svg" alt=""></a>
+                </div>
+        
+                <div class="option">
+                  <a href="#"><img src="images/icon-pinterest.svg" alt=""></a>
+                </div>
+        
+                <div class="option">
+                  <a href="#"><img src="images/icon-twitter.svg" alt=""></a>
+                </div>
+                
+            </div>
+
+            <div class="indicator">
+
+            </div>
+          </div>
+          
+          
+          
+        </div>
 
       </div>
 
@@ -68,5 +101,9 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/soldgear">Lukaz</a>.
   </div>
+
+  
+
+  <script src="script.js">  </script>
 </body>
 </html>
